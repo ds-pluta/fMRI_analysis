@@ -1,4 +1,28 @@
+#----------------------------------------------------------------------------#
+# App parameters
+
+ts.default.dir = ""
+behav.default.dir = ""
+
+f.ts.stem = "SUB"
+f.behav.stem = "fMRI_Cup_sub"
+f.type = ".mat"
+ROI.default = 1
+trim.default = 20
+p.default = c(12, 20, 3, 1, 6, 0, 32)
+T.default = 16
+RT.default = 2
+trial.time = 580
+feedback.time = 0.5
+
+#subj.list <- read.delim("210sublist.txt", header=F)[,1]
+subj.list = c("2001", "2002")
+n.subjs = 2
+n.timepts = 290
+n.ROIs = 375
+
 col.width = 5
+#----------------------------------------------------------------------------#
 
 ui <- shinyUI(fixedPage(
 
