@@ -1,3 +1,5 @@
+col.width = 5
+
 ui <- shinyUI(fixedPage(
 
     titlePanel("fMRI Data Analysis"),
