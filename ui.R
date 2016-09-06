@@ -29,7 +29,7 @@ ui <- shinyUI(fixedPage(
     titlePanel("fMRI Data Analysis"),
 
     wellPanel("This app allows for the visualization and exploration of a sample of the
-              Beijing study fMRI data.  The observed blood oxygend level dependent (BOLD) responses
+              study fMRI data.  The observed blood oxygend level dependent (BOLD) responses
               for all 375 brain regions of interest (ROIs) for two subjects
               can be examined.  Different smoothing windows (using a Gaussian kernel smoother) and
               leading trim lengths can be selected.  The stimulus series for the
